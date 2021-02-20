@@ -1,6 +1,8 @@
 #! /bin/sh
 
 setxkbmap -option caps:escape
+xset b off
+xset r rate 200 50
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
