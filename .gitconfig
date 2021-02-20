@@ -1,0 +1,15 @@
+[user]
+	name = Andrew Redinbo
+	email = atredinbo@gmail.com
+
+[alias]
+        a = add
+        st = status
+        stat = status
+        com = commit
+
+[url "https://aur.archlinux.org/"]
+        insteadOf = aur:
+
+[url "https://github.com/"]
+        insteadOf = gh:
