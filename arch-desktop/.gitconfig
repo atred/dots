@@ -7,6 +7,7 @@
         st = status
         stat = status
         com = commit
+        comm = commit
 
 [url "https://aur.archlinux.org/"]
         insteadOf = aur:

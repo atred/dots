@@ -3,13 +3,18 @@
 setxkbmap -option caps:escape
 xset b off
 xset r rate 200 50
+xsetroot -cursor_name left_ptr
+feh --bg-fill ${HOME}/pic/wp/nordlake.jpg
 
 pgrep -x sxhkd > /dev/null || sxhkd &
+pgrep -x picom > /dev/null || picom &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         2
 bspc config window_gap          12
+bspc config active_border_color \#434C5E
+bspc config normal_border_color \#2E3440
 
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true

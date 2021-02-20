@@ -10,8 +10,7 @@ endif
 
 " Plug
 call plug#begin('~/.vim/plugged')
-Plug 'morhetz/gruvbox'
-Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'arcticicestudio/nord-vim'
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
@@ -66,9 +65,8 @@ hi MatchParen cterm=bold ctermbg=none ctermfg=magenta
 " autocmd FileType c nnoremap <F5> :w<Enter>:!gcc %<Enter>
 
 " Colors
-" let g:gruvbox_contrast_dark = 'hard'
-colorscheme gruvbox
+colorscheme nord
 let g:lightline = {}
-let g:lightline.colorscheme = 'gruvbox'
+let g:lightline.colorscheme = 'nord'
 set laststatus=2
 set noshowmode
